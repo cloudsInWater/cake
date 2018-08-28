@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "stage-2"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-runtime",
+    "react-hot-loader/babel",
+    "syntax-dynamic-import",
+    ["import", { "libraryName": "antd", "style": "css" }]
+  ]
+}
