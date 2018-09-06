@@ -3,8 +3,8 @@ const { Controller } = require('egg');
 class PageController extends Controller {
   async index() {
     const { ctx } = this;
-
-    await ctx.render('index.tpl');
+    console.log('I am In here')
+    await ctx.render('index.html');
   }
 }
 

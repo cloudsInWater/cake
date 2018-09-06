@@ -40,3 +40,11 @@ exports.httpclient = {
     timeout: 5 * 1000,
   },
 };
+exports.mongoose = {
+  client: {
+    url: 'mongodb://127.0.0.1/friday',
+    options: {
+      useNewUrlParser: true
+    },
+  },
+};
